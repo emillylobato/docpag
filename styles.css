@@ -1,0 +1,125 @@
+body {
+    background-color: #0c0c0c;
+    color: rgb(232, 236, 235);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    font-size: 25px;
+    background-color: #333;
+    color: rgb(106, 178, 206);
+    text-align: center;
+    padding: 15px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 3px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .animal-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  }
+  
+  .animal {
+    flex: 1;
+  }
+
+  .animal-info {
+    font-size: 17px;
+    color: rgba(255, 255, 255, 0.822);
+    margin-left: 12px;
+  }
+
+  .animal img {
+   max-width: 25%;
+   height: auto;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+  }
+   .more-info {
+    margin-top: 20px;
+  }
+  
+  .more-info ul {
+    list-style-type: none;
+  }
+  
+  .more-info-button {
+    padding: 20px 30px;
+    background-color: #1f5721;
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .more-info-button:hover {
+    background-color: #5c926d;
+  }
+  
+  .home-info {
+    margin-top: 20px;
+  }
+  
+  .home-info ul {
+    list-style-type: none;
+  }
+  
+  .home-info-button {
+    padding: 20px 30px;
+    background-color: #ceaf6d;
+    font-size: 20px;
+    color: rgb(3, 3, 3);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .home-info-button:hover {
+    background-color: #a87e57;
+  }
+
+  .contacts-info {
+    margin-top: 20px;
+  }
+  
+  .contacts-info ul {
+    list-style-type: none;
+  }
+  
+  .contacts-info-button {
+    padding: 25px 35px;
+    background-color: #161886;
+    font-size: 25px;
+    color: rgb(224, 226, 225);
+    border: none;
+    cursor: pointer;
+  }
+  
+  .contacts-info-button:hover {
+    background-color: #386d96;
+  }
+
+  .uls {
+    color: #dfe9e0;
+   }
+
+   .ulcont{
+    color: #dfe9e0;
+   }
+   
